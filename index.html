@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yes. Optical</title>
+    <title>Yes. Optical - Унікальні окуляри від незалежних брендів</title>
+    <meta name="description" content="Ручний відбір дизайнерських окулярів з усього світу. Оптика та сонцезахисні окуляри преміум-якості.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header class="site-header">
-        <h1 class="logo">yes.</h1>
-        <nav aria-label="Main menu">
+        <h1 class="logo"><a href="/" rel="home">yes.</a></h1>
+        <nav aria-label="Головне меню">
             <ul>
                 <li><a href="#">Sun</a></li>
                 <li><a href="#">Optical</a></li>
@@ -18,28 +20,31 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="hero" aria-labelledby="hero-title">
             <div class="hero-text">
                 <h2 id="hero-title">We treat your eyes with care</h2>
-                <nav aria-label="Collection link">
+                <nav aria-label="Посилання на колекцію">
                     <a href="#" class="collection-link">See the collection →</a>
                 </nav>
             </div>
             <figure class="hero-image">
-                <img src="img/flower.png" alt="Woman with glasses decorated with flowers">
+                <img src="img/flower.png" alt="Жінка в окулярах з квітковим декором">
             </figure>
         </section>
-        <section class="shop-gender" aria-label="Shop by gender">
+
+        <section class="shop-gender" aria-label="Купити за статтю">
             <figure class="shop-figure">
-                <img src="img/woman.jpg" alt="Woman wearing glasses" class="shop-img">
+                <img src="img/woman.jpg" alt="Жінка в окулярах" class="shop-img">
                 <figcaption class="shop-caption"><a href="#">Shop Women</a></figcaption>
             </figure>
             <figure class="shop-figure">
-                <img src="img/man.jpg" alt="Man wearing glasses" class="shop-img">
+                <img src="img/man.jpg" alt="Чоловік в окулярах" class="shop-img">
                 <figcaption class="shop-caption"><a href="#">Shop Men</a></figcaption>
             </figure>
         </section>
+
         <section class="new-stock" aria-labelledby="new-stock-title">
             <header class="section-header">
                 <h2 id="new-stock-title">New in stock</h2>
@@ -47,27 +52,28 @@
             </header>
             <ul class="products-list">
                 <li>
-                    <figure>
-                        <img src="img/noemi.jpg" alt="Noemi glasses">
+                    <button class="product-card" data-model="Noemi – $95" aria-label="Швидке замовлення Noemi">
+                        <img src="img/noemi.jpg" alt="Окуляри Noemi">
                         <figcaption>Noemi – $95</figcaption>
-                    </figure>
+                    </button>
                 </li>
                 <li>
-                    <figure>
-                        <img src="img/hurst.jpg" alt="Hurst glasses">
+                    <button class="product-card" data-model="Hurst – $285" aria-label="Швидке замовлення Hurst">
+                        <img src="img/hurst.jpg" alt="Окуляри Hurst">
                         <figcaption>Hurst – $285</figcaption>
-                    </figure>
+                    </button>
                 </li>
                 <li>
-                    <figure>
-                        <img src="img/louisa.jpg" alt="Louisa Nylon glasses">
+                    <button class="product-card" data-model="Louisa Nylon – $315" aria-label="Швидке замовлення Louisa Nylon">
+                        <img src="img/louisa.jpg" alt="Окуляри Louisa Nylon">
                         <figcaption>Louisa Nylon – $315</figcaption>
-                    </figure>
+                    </button>
                 </li>
             </ul>
+
             <aside class="highlight" aria-labelledby="mitchel-title">
                 <figure>
-                    <img src="img/mitchel.jpg" alt="Mitchel glasses">
+                    <img src="img/mitchel.jpg" alt="Окуляри Mitchel">
                 </figure>
                 <div class="highlight-content">
                     <h2 id="mitchel-title">Mitchel</h2>
@@ -76,6 +82,7 @@
                 </div>
             </aside>
         </section>
+
         <section class="bestsellers" aria-labelledby="bestsellers-title">
             <header class="section-header">
                 <h2 id="bestsellers-title">Bestsellers</h2>
@@ -83,70 +90,69 @@
             </header>
             <ul class="products-list">
                 <li>
-                    <article class="product">
-                        <img src="img/saskia.jpg" alt="Saskia black glasses">
+                    <button class="product-card" data-model="Saskia – $115" aria-label="Швидке замовлення Saskia">
+                        <img src="img/saskia.jpg" alt="Окуляри Saskia чорні">
                         <h3>Saskia</h3>
                         <p class="price">$115</p>
-                    </article>
+                    </button>
                 </li>
                 <li>
-                    <article class="product">
-                        <img src="img/cynthia.jpg" alt="Cynthia round glasses">
+                    <button class="product-card" data-model="Cynthia – $95" aria-label="Швидке замовлення Cynthia">
+                        <img src="img/cynthia.jpg" alt="Окуляри Cynthia круглі">
                         <h3>Cynthia</h3>
-                        <p>2 colours</p>
+                        <p>2 кольори</p>
                         <p class="price">$95</p>
-                    </article>
+                    </button>
                 </li>
                 <li>
-                    <article class="product">
-                        <img src="img/eimear.jpg" alt="Eimear pink glasses">
+                    <button class="product-card" data-model="Eimear – $105" aria-label="Швидке замовлення Eimear">
+                        <img src="img/eimear.jpg" alt="Окуляри Eimear рожеві">
                         <h3>Eimear</h3>
-                        <p>2 colours</p>
+                        <p>2 кольори</p>
                         <p class="price">$105</p>
-                    </article>
+                    </button>
                 </li>
             </ul>
         </section>
-        <section class="promo" aria-label="Lifestyle images">
+
+        <section class="promo" aria-label="Lifestyle фото">
             <figure>
-                <img src="img/sightwomen.jpg" alt="Woman wearing glasses">
+                <img src="img/sightwomen.jpg" alt="Жінка в окулярах">
                 <figcaption class="promo-caption">For sight</figcaption>
             </figure>
             <figure>
-                <img src="img/sightman.jpg" alt="Man wearing sunglasses">
+                <img src="img/sightman.jpg" alt="Чоловік в сонцезахисних окулярах">
                 <figcaption class="promo-caption">For sight</figcaption>
             </figure>
         </section>
+
         <section class="brands-section" aria-labelledby="brands-title">
-            <h2 id="brands-title" class="visually-hidden">Brands</h2>
-            <p class="brands-list">Krewe Carla Colour Modern Legacy TIJN</p>
+            <h2 id="brands-title" class="visually-hidden">Бренди</h2>
+            <ul class="brands-list" aria-label="Представлені бренди">
+                <li>Krewe</li>
+                <li>Carla Colour</li>
+                <li>Modern Legacy</li>
+                <li>TIJN</li>
+            </ul>
         </section>
+
         <section class="about-section" aria-labelledby="about-title">
             <div class="about-content">
                 <h2 id="about-title">Who are we?</h2>
-                <p>
-                    Apologies if you were looking for an ordinary optical store.
-                    We’ve hand-picked unique brands from all over the world to
-                    give you a special look for your everyday life.
-                </p>
-                <p>
-                    Our glasses will have you looking great and feeling better.
-                    We work with independent brands who use the highest-grade
-                    materials, demonstrating detail and craftsmanship in every
-                    pair. A wide range of styles reflects the diversity of our
-                    clients and is made to suit different face shapes.
-                </p>
+                <p>Apologies if you were looking for an ordinary optical store...</p>
+                <p>Our glasses will have you looking great and feeling better...</p>
             </div>
             <figure class="about-image">
-                <img src="img/we.jpg" alt="A smiling woman wearing glasses">
+                <img src="img/we.jpg" alt="Усміхнена жінка в окулярах">
             </figure>
         </section>
     </main>
+
     <footer class="site-footer">
         <div class="footer-top">
-            <nav aria-label="Footer navigation">
+            <nav aria-label="Навігація в футері">
                 <div class="footer-column">
-                    <h3 id="shop-title">Shop</h3>
+                    <h3>Shop</h3>
                     <ul>
                         <li><a href="#">Sun</a></li>
                         <li><a href="#">Optical</a></li>
@@ -154,7 +160,7 @@
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3 id="customer-care-title">Customer Care</h3>
+                    <h3>Customer Care</h3>
                     <ul>
                         <li><a href="#">FAQ</a></li>
                         <li><a href="#">Shipping and returns</a></li>
@@ -162,44 +168,69 @@
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3 id="info-title">Info</h3>
+                    <h3>Info</h3>
                     <ul>
                         <li><a href="#">Terms and conditions</a></li>
                         <li><a href="#">Privacy policy</a></li>
                     </ul>
                 </div>
             </nav>
+
             <div class="footer-newsletter">
                 <p>No spam, just pure inspiration and good news</p>
-                <form>
-                    <label for="email" class="visually-hidden">Email</label>
-                    <input type="email" id="email" placeholder="Your email">
+                <form novalidate>
+                    <label for="email" class="visually-hidden">Ваш email</label>
+                    <input type="email" id="email" placeholder="Your email" required autocomplete="email">
                     <button type="submit">Subscribe</button>
                 </form>
             </div>
         </div>
+
         <div class="footer-bottom">
             <p>We are always close</p>
             <p><a href="tel:+316574857326">+31 657 485 73 26</a></p>
             <p><a href="mailto:hello@yesforeyes.com">hello@yesforeyes.com</a></p>
             <div class="socials">
-                <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram icon"></a>
-                <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt="Facebook icon"></a>
+                <a href="#" aria-label="Instagram"><img src="img/instagram.png" alt=""></a>
+                <a href="#" aria-label="Facebook"><img src="img/facebook.png" alt=""></a>
             </div>
             <p class="credits">
                 Designed and built by Mohylin Vlad, Cherevychniy Yaroslav, Yevstigneev Rostyslav<br>
                 © 2025 Yes for Eyes
             </p>
             <p class="photo-credits">
-                Photo materials belong to
-                <a href="#">Krewe</a>,
-                <a href="#">Carla Colour</a>,
-                <a href="#">TIJN</a>,
-                <a href="#">Modern Legacy</a>,
-                <a href="#">Unsplash</a>.<br>
+                Photo materials belong to <a href="#">Krewe</a>, <a href="#">Carla Colour</a>,
+                <a href="#">TIJN</a>, <a href="#">Modern Legacy</a>, <a href="#">Unsplash</a>.<br>
                 This site is a design concept and not meant for commercial purposes.
             </p>
         </div>
     </footer>
+
+    <div id="quick-order-popup" class="popup-overlay" aria-hidden="true">
+        <div class="popup-content" role="dialog" aria-labelledby="popup-title" aria-modal="true">
+            <button class="popup-close" aria-label="Закрити">x</button>
+            
+            <h2 id="popup-title">Швидке замовлення</h2>
+            <p class="popup-model">Модель: <strong id="model-name">—</strong></p>
+            
+            <form id="quick-order-form" novalidate>
+                <label>
+                    <span>Ім’я *</span>
+                    <input type="text" name="name" required placeholder="Як до вас звертатись?">
+                </label>
+                <label>
+                    <span>Телефон *</span>
+                    <input type="tel" name="phone" required placeholder="+380">
+                </label>
+                <label>
+                    <span>Адреса доставки</span>
+                    <input type="text" name="address" placeholder="Місто, відділення Нової Пошти">
+                </label>
+                <button type="submit" class="popup-submit">Відправити замовлення</button>
+            </form>
+            <p class="popup-note">Ми передзвонимо протягом 5-10 хвилин</p>
+        </div>
+    </div>
+
 </body>
 </html>
