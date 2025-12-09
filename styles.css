@@ -4,7 +4,7 @@
 
 body {
   margin: 0; /* прибирає стандартний відступ браузера */
-  font-family: "Inter", Arial, sans-serif; /* основний шрифт сайту */
+  font-family: "Roboto", sans-serif;
   color: #111; /* темний колір тексту */
 }
 
