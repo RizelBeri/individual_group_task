@@ -428,8 +428,13 @@ header nav li:last-child a {
 }
 
 .about-content h2 {
-  font-size: 36px;
+  font-size: 50px;
   margin: 0 0 20px;
+}
+
+.about-content p {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .about-image {
